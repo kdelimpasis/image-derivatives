@@ -40,7 +40,7 @@ We set the following
 Then the following function is called
 
 > [I,kc]=image_der1(I,ord1, ord2, n1,n2)
-![The 9x9 kernal](images/cameraman_xy.png)
+![The <img src="https://render.githubusercontent.com/render/math?math=I_{xy}"> image](images/cameraman_xy.png)
 ![The 9x9 kernel](images/kernel_xy.png)
 
 # Files
