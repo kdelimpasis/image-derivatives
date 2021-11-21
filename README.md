@@ -19,7 +19,7 @@ You are free to use this source code for any academic or non-academic purpose, p
 ## 1. Generating convolution kernels to calculate Signal and Image Derivatives
 This source code implements the theorems for generating the finite impulse response (FIR) filters for signal derivatives of odd and even order. These filters are essentially symmetric finite differences, therefore we will use the terms, central, centered of FIR interchangeably. A very fast numerical implementation of central derivatives is also presented
 ### Example 1
-Calculate the kernel <img src="https://render.githubusercontent.com/render/math?math=K"> with length <img src="https://render.githubusercontent.com/render/math?math={2n+1}"> for the order <img src="https://render.githubusercontent.com/render/math?math=ord"> derivative
+Calculate the kernel <img src="https://render.githubusercontent.com/render/math?math=K"> with length <img src="https://render.githubusercontent.com/render/math?math=\2n+1"> for the order <img src="https://render.githubusercontent.com/render/math?math=ord"> derivative
 
 > K=descrete_deriv(ord,n)
 
