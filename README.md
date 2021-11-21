@@ -28,7 +28,7 @@ Kernel $K$ is calculated as
 > 0.0111,  -0.1500,  1.5000,  -2.7222,  1.5000,  -0.1500,  0.0111
 
 ### Example 2
-Given an image $I$, calculate the <img src="https://render.githubusercontent.com/render/math?math=I_{xy}=\frac{\partial^2 I}{\partial x}{\partial y}"> using a kernel with size 9×9 
+Given an image $I$, calculate the <img src="https://render.githubusercontent.com/render/math?math=I_{xy}=\frac{\partial^2 I}{\partial x\partial y}"> using a kernel with size 9×9 
 
 We set the following
 > n=4
