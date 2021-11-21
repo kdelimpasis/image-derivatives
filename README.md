@@ -32,14 +32,18 @@ Kernel <img src="https://render.githubusercontent.com/render/math?math=K"> is ca
 Given an image <img src="https://render.githubusercontent.com/render/math?math=I">, calculate the <img src="https://render.githubusercontent.com/render/math?math=I_{xy}=\frac{\partial^2 I}{\partial x\partial y}"> using a kernel with size 9×9 
 
 We set the following
-> n=4
-> ord1=1
-> ord2=1
+> n=4;
+
+> ord1=1;
+
+> ord2=1;
 
 
 Then the following function is called
 
 > [I,kc]=image_der1(I,ord1, ord2, n1,n2)
+
+![The original image <img src="https://render.githubusercontent.com/render/math?math=I">](images/cameraman.bmp)
 ![The <img src="https://render.githubusercontent.com/render/math?math=I_{xy}"> image](images/cameraman_xy.png)
 ![The 9x9 kernel](images/kernel_xy.png)
 
