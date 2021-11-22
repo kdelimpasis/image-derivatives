@@ -47,13 +47,13 @@ Then the following function is called
 ![The <img src="https://render.githubusercontent.com/render/math?math=I_{xy}"> image](images/cameraman_xy.png)
 ![The 9x9 kernel](images/kernel_xy.png)
 
-## Calculating image derivatives using IIR - Compact derivatives
+## Calculating image derivatives using IIR filtering - Compact derivatives
 Signal and image derivatives ca nalso be calculated using compact derivatives. This is a sophisticated method that involves both FIR filetring (centered differences) as well as solving a tridiagonal or pentadiagonal system of linear equations. In our work, the later part has been formulaed as a cascade of causal and anticausal filter. For more details, see our [IFIP 2013 paper](https://link.springer.com/content/pdf/10.1007/978-3-642-41142-7_33.pdf).
 
 Any combination of 1st and 2nd order derivatives of any image I is supported by the provided source code. 
 > [Ix,Iy,Ixy,Ixx,Iyy,Ixyy,Ixxy,Ixxyy]=image_der_IIR(I,n1,n2);
-n1 is the accuracy of the 1st derivative, with possible values 6, 8 and 10
-n2 is the accuracy of the 2nd derivative, with possible values 4, 6, 8 and 10
+> n1 is the accuracy of the 1st derivative, with possible values 6, 8 and 10
+> n2 is the accuracy of the 2nd derivative, with possible values 4, 6, 8 and 10
 
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
