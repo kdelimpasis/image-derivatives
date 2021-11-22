@@ -42,7 +42,7 @@ We set the following
 Then the following function is called
 
 > [I,kc]=image_der1(I,ord1, ord2, n1,n2)
-
+The original cameraman image, the 1st order derivative along x and y axis and the 9x9 corresponding kernel are shown below.
 ![The original image](images/cameraman.bmp)
 ![The <img src="https://render.githubusercontent.com/render/math?math=I_{xy}"> image](images/cameraman_xy.png)
 ![The 9x9 kernel](images/kernel_xy.png)
@@ -58,37 +58,14 @@ n1 is the accuracy of the 1st derivative, with possible values 6, 8 and 10
 n2 is the accuracy of the 2nd derivative, with possible values 4, 6, 8 and 10
 
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
 
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
 
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
 
 You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
 
 
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
 
 
