@@ -50,7 +50,7 @@ Then the following function is called
 ## Calculating image derivatives using IIR filtering - Compact derivatives
 Signal and image derivatives ca nalso be calculated using compact derivatives. This is a sophisticated method that involves both FIR filetring (centered differences) as well as solving a tridiagonal or pentadiagonal system of linear equations. In our work, the later part has been formulaed as a cascade of causal and anticausal filter. For more details, see our [IFIP 2013 paper](https://link.springer.com/content/pdf/10.1007/978-3-642-41142-7_33.pdf).
 
-Any combination of 1st and 2nd order derivatives of any image I is supported by the provided source code. 
+Any combination of 1st and 2nd order derivatives of any image I is supported by the provided source code <img src="https://render.githubusercontent.com/render/math?math=I_{xy}, I_x, I_y, I_{xx}, I_{yy}, I_{xxy}, I_{xyy}, I_{xxyy}">. 
 > [Ix,Iy,Ixy,Ixx,Iyy,Ixyy,Ixxy,Ixxyy]=image_der_IIR(I,n1,n2);
 > n1 is the accuracy of the 1st derivative, with possible values 6, 8 and 10
 > n2 is the accuracy of the 2nd derivative, with possible values 4, 6, 8 and 10
