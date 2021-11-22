@@ -59,7 +59,7 @@ n2 is the accuracy of the 2nd derivative, with possible values 4, 6, 8 and 10
 
 
 The spectral response of exemplar derivative operators (both centered and compact) for the 1st order derivative are shown below.
-![1st order derivative operator spectral response](images/AIAI_fig2a.tif)
+![1st order derivative operator spectral response](images/AIAI_fig2a.png)
 
 
 
