@@ -43,7 +43,6 @@ Then the following function is called
 
 > [I,kc]=image_der1(I,ord1, ord2, n1,n2)
 The original cameraman image, the 1st order derivative along x and y axis and the 9x9 corresponding kernel are shown below.
-
 ![The original image](images/cameraman.bmp)
 ![The <img src="https://render.githubusercontent.com/render/math?math=I_{xy}"> image](images/cameraman_xy.png)
 ![The 9x9 kernel](images/kernel_xy.png)
